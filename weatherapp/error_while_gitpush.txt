@@ -1,0 +1,15 @@
+Follw the steps to work fine:
+
+Change URL to HTTP when clone:
+
+git clone https://github.com/USERNAME/REPOSITORY.git
+
+To fix it, reset URL to HTTP:
+
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+BTW, you may check your URL using command:
+
+git remote -v
+origin  https://github.com/USERNAME/REPOSITORY.git (fetch)
+origin  https://github.com/USERNAME/REPOSITORY.git (push)
+Hope this will help some one like me. :D
